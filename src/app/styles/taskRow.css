@@ -1,0 +1,43 @@
+.task-row-style {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #ddd;
+  font-family: Arial, sans-serif;
+}
+
+.task-row-style > div {
+  /* Make each section flexible */
+  flex: 1;
+}
+
+.task-reference-id,
+.task-deadline {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.task-status {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #0070f3; /* example blue color */
+  text-align: center;
+}
+
+.action-button {
+  padding: 0.4rem 1rem;
+  font-size: 0.9rem;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color 0.2s ease;
+}
+
+.action-button:hover {
+  background-color: #005bb5;
+}
